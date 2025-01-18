@@ -58,7 +58,7 @@ dependencies {
     implementation(libs.rxjava)
     implementation(libs.room.runtime)
     implementation(libs.room.rxjava3)
-    implementation(libs.simple.location)  // Menggunakan alias yang telah didefinisikan
+    implementation(libs.simple.location)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

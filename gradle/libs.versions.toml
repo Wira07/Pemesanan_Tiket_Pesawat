@@ -3,6 +3,7 @@ agp = "8.7.3"
 kotlin = "1.9.24"
 coreKtx = "1.15.0"
 junit = "4.13.2"
+lifecycle = "2.6.1"
 espressoCore = "3.6.1"
 legacyEspressoCore = "3.6.1"
 appcompat = "1.7.0"
@@ -36,6 +37,8 @@ play-services-maps = { module = "com.google.android.gms:play-services-maps", ver
 play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "play-services-location" }
 lifecycle-livedata = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle-livedata" }
 lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converter-gson" }
 rxjava3-retrofit-adapter = { module = "com.github.akarnokd:rxjava3-retrofit-adapter", version.ref = "rxjava3-retrofit-adapter" }
@@ -44,6 +47,7 @@ room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 room-rxjava3 = { module = "androidx.room:room-rxjava3", version.ref = "room" }
 rxandroid = { module = "io.reactivex.rxjava3:rxandroid", version.ref = "rxandroid" }
 rxjava = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxjava" }
+
 simple-location = { module = "com.github.delight-im:Android-SimpleLocation", version.ref = "simpleLocation" }
 
 [plugins]
